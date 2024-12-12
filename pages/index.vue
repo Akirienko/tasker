@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <setion>
-
-  </setion>
+  <Board />
 </template>
 
 <style scoped>

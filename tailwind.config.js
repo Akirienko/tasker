@@ -34,6 +34,9 @@ module.exports = {
                 orange: "#F7910E",
               },
             },
+            fontFamily: {
+              sans: ['Inter', 'Arial', 'sans-serif'],
+            },
         },
     },
 };

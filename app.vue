@@ -1,5 +1,6 @@
 <script setup>
 import favicon from "@/assets/image/favicon.png";
+import { useTodoStore } from '@/stores/todoStore';
 
 useHead({
   title: 'Best todo list',
@@ -8,8 +9,19 @@ useHead({
   ]
 })
 
+
+const todoStore = useTodoStore();
+
+onMounted(() => {
+  todoStore.initializeStore();
+});
+
 </script>
 
 <template>
-  <NuxtPage />
+  <section>
+    <AppHeader />
+    <AppBackground />
+    <NuxtPage />
+  </section>
 </template>
