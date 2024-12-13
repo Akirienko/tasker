@@ -13,3 +13,4 @@ Start the development server on `http://localhost:3000`:
 
 npm run build
 
+## To run project you need use Node 18.0

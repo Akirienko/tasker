@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   components: {
@@ -6,7 +7,18 @@ export default defineNuxtConfig({
 			{ "path": "@/components/", "global": true, pathPrefix: false, }
 		],
 	},
-  // devtools: { enabled: true }
+  app: {
+    head: {
+      title: 'Best todo list',
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/favicon.png',
+        },
+      ],
+    },
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

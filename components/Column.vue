@@ -12,7 +12,6 @@ const props = defineProps({
 const todoStore = useTodoStore();
 const taskModal = ref(false);
 const hoveredColumnId = ref(0);
-const storedId = ref()
 
 function handleDragOver(event, columnId) {
   event.preventDefault();

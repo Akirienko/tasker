@@ -8,9 +8,6 @@ module.exports = {
     './nuxt.config.{js,ts}',
     './app.vue'
   ],
-  // corePlugins: {
-  //   preflight: false,
-  // },
 	variants: {
 		extend: {
 			opacity: ['hover'],
@@ -25,7 +22,6 @@ module.exports = {
 					lg: "1024px",
 					tablet: "1200px",
 					xl: "1280px",
-					"macbook-13": "1440px",
 					"2xl": "1600px",
         },
         extend: {

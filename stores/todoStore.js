@@ -7,41 +7,6 @@ export const useTodoStore = defineStore('todo', {
   state: () => ({
 
     columns: [],
-    // columns: [
-    //   {
-    //     id: 1,
-    //     key: 'todo',
-    //     name: 'TODO',
-    //     tasks: [
-    //       {
-    //         id: 'qwd123dw1',
-    //         title: 'first task',
-    //         description: 'test task',
-    //         priority: 'high',
-    //         responsible: 'Antony',
-    //         status: 'todo'
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     id: 2,
-    //     key: 'In progress',
-    //     name: 'In progress',
-    //     tasks: [],
-    //   },
-    //   {
-    //     id: 3,
-    //     key: 'In review',
-    //     name: 'In review',
-    //     tasks: [],
-    //   },
-    //   {
-    //     id: 4,
-    //     key: 'done',
-    //     name: 'Done',
-    //     tasks: [],
-    //   },
-    // ],
   }),
   actions: {
     initializeStore() {
