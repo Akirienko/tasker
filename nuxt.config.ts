@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 			{ "path": "@/components/", "global": true, pathPrefix: false, }
 		],
 	},
+  ssr: false,
   app: {
     head: {
       title: 'Best todo list',
